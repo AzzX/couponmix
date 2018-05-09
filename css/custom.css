@@ -1,0 +1,17 @@
+/* Custom CSS goes here */
+
+/* Navigation */
+
+.navbarblock {
+	box-shadow: 0 4px 10px -10px rgba(0, 0, 0, 0.6);
+	transition: all .5s ease 0s;
+}
+
+
+.fixed-top {
+    position: fixed;
+    top: 5px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
