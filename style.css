@@ -8,4 +8,35 @@ Template: 		CP9
 Version: 		0.1
 */
 
-/* Add your custom CSS to the custom.css in the CSS folder */
+/* You can add your custom CSS to the custom.css in the CSS folder */
+
+/* Header Styles */
+
+.sticky.ppt-header, .header-innner.ppt-header {
+    background: #151d26;
+	opacity: 0.6;
+	box-shadow: 0 1px 0 0 rgba(255,255,255,.1) inset;
+}
+
+.ppt-header.sticky a {
+    color: #efefef;
+}
+
+.ppt-menu > ul > li > a:hover {
+    background:rgba(0, 0, 0, 0.1);
+}
+
+.ppt-menu ul li > a {
+    color: #efefef;
+}
+
+.ppt-menu.separate-line > ul > li::after {
+    width: 0px;
+}
+
+.ppt-header {
+	background: #151d26;
+}
+.burger-menu .line-menu {
+    background-color: #efefef;
+}

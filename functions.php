@@ -25,14 +25,13 @@ add_action( 'init', 'disable_emojis' );
 
 // LOAD UP PP DEFAULT STYLES AND ADD CUSTOM CSS and JS
 function webmix_css() {
-	wp_enqueue_style( 'pp_style', get_template_directory_uri() .'/_coupon/template/style.css' );
 	wp_enqueue_style( 'webmix_style', get_stylesheet_directory_uri() .'/css/custom.css' );
 	wp_enqueue_script( 'webmix_js', get_stylesheet_directory_uri() .'/js/custom.js' );
 }
 add_action( 'wp_enqueue_scripts', 'webmix_css', 15 );
 
 // PREMIUMPRESS FRAMEWORK FUNCTIONS
-require_once TEMPLATEPATH ."/functions.php";
-require_once TEMPLATEPATH ."/_coupon/functions.php";
+//require_once TEMPLATEPATH ."/functions.php";
+//require_once TEMPLATEPATH ."/_coupon/functions.php";
 
 ?>
